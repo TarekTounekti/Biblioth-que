@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="achat.css">
+    <title>Bibliothèque</title>
+
+</head>
+
+<body>
+  <div class="lien">
+    <a title="Clique ici" href="index.html">Consultez nos livres</a>
+  </div>
+  
+  
+
+    <section>
+        <h2>Pour achetez un livre:</h2>
+        <div class="container">
+            <form class="form-style-9">
+
+                <fieldset>
+                    <legend><b>Formulaire d'achat</b></legend>
+                    <div class="formulaire">
+                        <div class="left">
+                            <label for="nomInput">Nom :</label>
+                            <input id="nomInput" type="text" placeholder="Entrez votre Nom" />
+                         
+                            <label for="PrenomInput">Prénom :</label>
+                            <input id="PrenomInput" type="text" placeholder="Entrez votre Prénom" />
+                        
+                            <label for="NumInput">Numéro de la carte visa :</label>
+                            <input id="NumInput" type="text" placeholder="Entrez le N° de votre carte" />
+                        </div>
+                        <div class="right">
+                            <label for="DateInput">Date d'expiration de la carte </label>
+                            <input id="DateInput" type="date" />
+                           
+        
+                            <label for="CopieInput">Nombre de copie à acheter</label>
+                            <div class="nbrCopie">
+
+
+                            <input type="radio" value="1" id="radio1" name="copienbr"><label class="radioLabel" for="radio1">1</label>
+                    
+                            <input type="radio" value="2" id="radio2" name="copienbr"><label class="radioLabel"  for="radio2" >2</label>
+                            
+                            <input type="radio" value="3" id="radio3" name="copienbr"><label class="radioLabel"  for="radio3" >3</label>
+                          
+                           
+                        </div>
+                            
+                            <label for="Livre" class="CopieInput">Choisissez un livre</label>
+                          
+                            <select id="Livre">
+                                <option value="0" selected>Les gratitudes</option>
+                                <option value="1">Une fille comme elle</option>
+                                <option value="2">Une évidence</option>
+                                <option value="3">Notre dame de Paris</option>
+                            </select>
+                        </div>
+                        </div>
+                  
+
+                    <div class="Envoyer">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
